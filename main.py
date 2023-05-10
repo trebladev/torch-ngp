@@ -9,3 +9,4 @@ if __name__ == '__main__':
     opt = parser.parse_args()
 
     data = NeRFDataset(opt, device='cpu', type="all")
+
